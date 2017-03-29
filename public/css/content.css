@@ -1,0 +1,27 @@
+.game-window{
+    margin: 0 auto;
+    width: 640px;
+    height: 640px;
+
+    border: 1px solid black;
+    perspective: 750px;
+}
+
+.game-block{
+    width: 64px;
+    height: 64px;
+    float: left;
+
+    padding-top: -1px;
+    padding-left: -2px;
+
+    box-sizing: border-box;
+
+    cursor: pointer;
+
+    transition: all ease-in-out .3s;
+}
+
+.game-block-click{
+    border: 1px solid black;
+}
