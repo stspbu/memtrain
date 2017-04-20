@@ -13,7 +13,9 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', 'ResponseController@init');
+Route::get('/', 'ResponseController@index');
+Route::get('/game', 'ResponseController@init');
+Route::get('/bezier', 'ResponseController@bezier');
 
-Route::any('/ajax/open', 'AjaxController@open');
-Route::get('/debug', 'AjaxController@debug');
+//Route::any('/ajax/open', 'AjaxController@open');
+//Route::get('/debug', 'AjaxController@debug');
