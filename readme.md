@@ -7,3 +7,5 @@
  -</p>
  
 Created using Laravel. The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+
+Открываем квадратики одного цвета и радуемся жизни.
